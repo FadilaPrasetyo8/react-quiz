@@ -11,7 +11,7 @@ const initialState = {
   correctAnswer: 0,
   answers: [],
   currentAnswers: "",
-  timer: 2,
+  timer: 60,
 };
 
 const reducer = (state, action) => {
@@ -60,7 +60,7 @@ const reducer = (state, action) => {
         correctAnswer: 0,
         answers: initialAnswers, // Perbarui jawaban saat restart
         currentAnswers: "",
-        timer: 2,
+        timer: 60,
       };
     }
     case "SET_QUIZ_DATA":
