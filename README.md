@@ -1,8 +1,25 @@
-# React + Vite
+# REACT QUIZ
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Tech Stack
 
-Currently, two official plugins are available:
+- React
+- React Router DOM
+- Context
+- Tailwindcss & Postcss
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+
+- Has a sports theme
+- Has 10 questions
+- Has a timer for 60 seconds
+- Has a restart button
+
+## Installation
+
+Install react-quiz with npm
+
+```bash
+  npm install react-quiz
+  cd react-quiz
+  npm run dev
+```
